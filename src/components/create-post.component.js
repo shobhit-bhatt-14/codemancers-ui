@@ -54,7 +54,7 @@ const CreatePost = (props) => {
           onChange={changeHandler}
         ></textarea>
 
-        <img className="col-4" src={url} alt="style" />
+        <img className="col-4" src={url} />
       </div>
       <br />
       <div className="col-11 mx-auto d-flex justify-content-evenly bg-secondary p-2 rounded">
