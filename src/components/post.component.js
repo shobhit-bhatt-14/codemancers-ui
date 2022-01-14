@@ -18,7 +18,7 @@ const Post = (props) => {
           {" "}
           {props.message}{" "}
         </p>
-        <img className="col-5" src={props.url} />
+        <img className="col-5" src={props.url} alt="style" />
       </div>
       <div className="d-flex justify-content-evenly">
         <div className="col-5 text-center">

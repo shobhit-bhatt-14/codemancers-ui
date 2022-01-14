@@ -13,7 +13,7 @@ const Item = (props) => {
   };
 
   return (
-    <a onClick={gifHandler}>
+    <a onClick={gifHandler} href="#">
       <img className="col-4" src={props.url} alt="style" />
     </a>
   );
